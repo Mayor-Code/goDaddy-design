@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Godaddy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontSize: {
+              xsm: ["0.6rem", "14px"],
+            },
+            colors: {
+              btnColor: "#00838C",
+              textMuted: "#767676",
+            },
+            backgroundImage: {
+              heroImage: 'url("/src/assets/images/hero.png")',
+            },
+            fontFamily: {
+              "hero-title": ["gd-sage", "Times New Roman", "serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
